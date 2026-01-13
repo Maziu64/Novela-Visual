@@ -115,23 +115,63 @@ Los guardias se asombraron al verme "!Maquina! Los seres como tu no estan permit
 ->aparece_pitia
 
 ===excusa_guardia===
-"Pues resulta que soy un automata construido exclusivamente para los usos en las artes adivinatorias" expliqué muy convencido
-"¡Herejía!" exclamó uno de los guardias, "¿Qué necio decidiria usar un maquina para tomar parte en las profecias? ¿Que haces aqui? Di la verdad"
+"Pues resulta que soy un automata construido exclusivamente para los usos en las artes adivinatorias y vosotros dos os estais interponiendo en mi primer dia de trabajo" expliqué muy convencido mientras los señalaba
+"¡Herejía!" exclamó uno de los guardias, "¿Qué necio decidiria usar un maquina para tomar parte en las profecias? ¿Que haces aqui? Di la verdad, chatarra"
 ->aparece_pitia
 
 ===aparece_pitia===
-Mientras discutias con los guardias una mujer apareció por alli y se fijo en mi. Despues de mirarme por un rato se sorprendio."Dejadlo pasar" ordeno
+Mientras discutias con los guardias una mujer apareció por alli y se fijo en mi. Despues de mirarme por un rato se sorprendio.
+"Dejadlo pasar" ordeno
 "Mi señora, no es mas que un automata" dijo, justificandose, uno de los guardias
 "No veis su pierna, porta el blason de este Oraculo. Lo diré por ultima vez ¡Dejadlo pasar!" ordeno nuevamente la mujer
-Los guardias bajaron sus lanzas luminicas y te dejaron pasar con mirada de desprecio. Dentro del edificio la mujer me llevo hacia una estancia con una hoguera.
-"Vaya este fuego parece muy real" dije mientras acercaba mi mano a la hoguera. "No lo toques" exclamo la mujer apartandome la mano "es un fuego real" añadio "por culpa de estos avances la gente ya no sabe ni lo que fue nuestro primer gran descrubrimiento" comento mosqueada.
-"Dime maquina ¿Qué haces aqui y por qué portas el blason de nuestro patron? No recuerdo haberte visto antes" pregunto la mujer con curiosidad.
-""
+Los guardias bajaron sus lanzas luminicas y te dejaron pasar con miradas despreciativas. 
+Dentro del edificio la mujer me llevo hacia una estancia con una hoguera.
+"Vaya este fuego parece muy real" dije mientras acercaba mi mano a la hoguera. 
+"No lo toques" exclamo la mujer apartandome la mano, "es un fuego real" añadio "por culpa de estos avances la gente ya no sabe ni lo que fue nuestro primer gran descrubrimiento" comento mosqueada.
+"Dime, maquina... ¿Qué haces aqui y por qué portas el blason de nuestro patron? No recuerdo haberte visto antes" pregunto la mujer desafiante con toques de curiosidad.
+"Señora, no soy mas que un automata estropeado, pero un extraño me entregó este blason y me hizo creer necesitar tu ayuda a traves de un vistazo en mi futuro" Respondí a la mujer
+"No pareces estar muy interesado en llevar acabo tal empresa" dijo hastiada la mujer, "No estoy aqui para que me hagan perder el tiempo. Soy la PITIA, pitonisa del Oraculo de Apolo, puedo ver a traves del tiempo y a traves de ti. Ver lo vivido y lo que esta por acontecer." dijo autoritariamente la Pitia. "La gente no viene a mi por una razon tan vaga. Habla con la verdad o parte inmediatamente de este edificio" pronunció como un ultimatum
+Te detuviste a meditar un momento. ¿Que buscabas realmente?
 
++ Mi proposito
+    ->pre_profecia
++ ¿Quién soy?
+    ->pre_profecia
 
+===pre_profecia===
+Te debates por que decir y antes de articular una palabra.
 
+"Da igual cualquier opcion que pienses pues yo, la Pitia, se que buscar tanto tu proposito como saber quien eres son parte de tu historia" dijo la Pitia sorprendiendote, pues parecía haberte leido la mente. "Desgraciadamente no puedo darte respuestas certeras. El futuro no es algo definido. Pero no es sino a traves de las profecias que podemos distinguir las luces y sombras de nuestro destino" explicó la Pitia.
+"Te propongo hacer un ritual de adivinación extraoficial" ofertó la señora, "Podras atisbar tu futuro y asi esclarecer ciertas incognitas. ¿Qué me dices?" preguntó de forma seria
+Tu te quedas con una cara un tanto confusa, tus luces parpadean como si estuvieras tomando consciencia de la situacion.
 
++ Hacer el rito de adivinación
+    "Vamos a ello" dices con aceptación, "No tengo nada que perder"
+    "No se hable mas" dijo la Pitia "Comencemos pues"
+    ->profecia
+    
++ Negarte a seguir adelante
+    "Acepto su hospitalidad, pero creo que este no es mi sitio" dijiste declinando su oferta
+    "Portas el blason de Apolo, nuestro protector y lider en las artes adivinatorias" insistió la Pitia, "Estas aqui por algo, Lotus"
+    Las palabras del encapuchado sobre tu estado de confusion y tus inquietudes sobre ti mismo resuenan en tu cabeza
+    "Está bien, paso a estar en sus manos señora" dije, aceptando la situacion
+    "Que de comienzo el rito profetico" enuncio la Pitia
+    ->profecia
 
+===profecia===
+La pitia se purifica, despojandose de todo elemento electronico e inhibiendo los pocos implantes ciberneticos para separar su carne de los artificial, para luego meterse dentro de un tanque con un liquido espeso y azul, que limpiaría su impureza natural
+Posterior a esto traen una cabra de carne y hueso, las cuales no se veian mucho en la sociedad, y procediero a echarle agua fria. La cabra tembló lo que significaba que la entidad divina estaba con nosotros.
+Para terminar, un exageta coloco a la Pitia en una silla de piedra de tres patas y rompió un vial de color rosa en la cara de la Pitonisa.
+Tras un rato, la Vidente empezó a contorsionarse y balbucear. En un momento se lanzo al centro de la estancia y junto al fuego, ella danzó. Mientras los movimientos casi inhumanos y los balbuceos se hacian cada vez mas presentes, el exageta miraba con aun mas atención.
+De repente, la Pitia paró, se incorporó y te miró con los ojos en blancos. Ella te señaló con cara de asombro mientras un viento inexplicable soplaba en tu contra y tras unos segundos cayó desplomada. El rito habia terminado.
+Tu sin entender nada te lanzas hacia ella, pero te para en seco extendiendo la palma hacia ti.
+"Hermodoro" dijo la Pitia llamando al exageta, "interpreta"
+El hombre me apartó hacia una nueva estancia mientras se llevaban a la Vidente de la sala para, hasta donde yo entendí, asistirla
+"¡¿Que ha ocurrido?!" exclamé estupefacto, "¿Está bien?¿Que ha significado todo?"
+Hermodoro te coge del brazo. 
+"La señora se encuentra bien, es un proceso normal, da su vida para ser la voz de Apolo que guíe a los mortales" explicó Hermodoro
+"¿Y que ha dicho?" pregunté sin aliento
+"Tu profecia es la siguiente" comenzó el exageta, "Necio... crees ser el gran trirreme, mas solo eres quien lo gobierna. No confies en quien te da miel tan amablemente, ya que el dulzor solo enmascara el amargor de la cicuta. Las moiras no tejen tu destino, pues lo enredan y hacen precipitar sobre tu testa"
 
 
 

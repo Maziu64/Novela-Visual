@@ -1,3 +1,9 @@
+
+Main Menu
++[Start]
+    ->inicio
+
+===inicio===
 Este relato toma lugar en un mundo donde la civilización Helenica no solo sobrevivió si no que prosperó y consiguió superar a las potencias que iban surgiendo...
 Tal fue su poder que llego a convertirse en el imperio que es ahora, como si...
 Una presencia divina estuviera soplando a su favor
@@ -98,8 +104,22 @@ Adentró eres detenido por los guardias del Oraculo
 Aqui vendria bien una decision sin mucho peso
 "¡Alto!" ordeno el guardia mientras nos descubría el rostro.
 Los guardias se asombraron al verme "!Maquina! Los seres como tu no estan permitidos en el Oraculo. Vuelve con tu usuario, aqui no se te ha perdido nada"
-"Verán he sido enviado aqui por orden de un amigo. Alguien que conoce a quien manda en este... edificio" expliqué sin ser muy convincente
++[Inventar una excusa]
+    ->excusa_guardia
++[Decir la verdad]
+    ->verdad_guardia
 
+===verdad_guardia===
+"Verán he sido enviado aqui por orden de un amigo. Alguien que conoce a quien manda en este... edificio" expliqué sin ser muy convincente
+"Sin un usuario no eres bienvenido, vueve por donde has venido" aclaro el guardia
+->aparece_pitia
+
+===excusa_guardia===
+"Pues resulta que soy un automata construido exclusivamente para los usos en las artes adivinatorias" expliqué muy convencido
+"¡Herejía!" exclamó uno de los guardias, "¿Qué necio decidiria usar un maquina para tomar parte en las profecias? ¿Que haces aqui? Di la verdad"
+->aparece_pitia
+
+===aparece_pitia===
 Mientras discutias con los guardias una mujer apareció por alli y se fijo en mi. Despues de mirarme por un rato se sorprendio."Dejadlo pasar" ordeno
 "Mi señora, no es mas que un automata" dijo, justificandose, uno de los guardias
 "No veis su pierna, porta el blason de este Oraculo. Lo diré por ultima vez ¡Dejadlo pasar!" ordeno nuevamente la mujer

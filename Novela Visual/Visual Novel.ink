@@ -101,9 +101,8 @@ Miraste el blason que llevabas en tu mano
 Al doblar la ultima esquina vislumbras un templo con columnas metalicas y dos hogueras al principio de las escaleras. Al final de estas, un arco coronado con un Sol da paso a la entrada del edificio.
 Con muchas dudas asaltando tu mente te llenas de valor y entras poniendo tu blason en una de tus piernas cuyas ranuras vistes que encajaban con el y colocando tu capucha.
 Adentró eres detenido por los guardias del Oraculo
-Aqui vendria bien una decision sin mucho peso
 "¡Alto!" ordeno el guardia mientras nos descubría el rostro.
-Los guardias se asombraron al verme "!Maquina! Los seres como tu no estan permitidos en el Oraculo. Vuelve con tu usuario, aqui no se te ha perdido nada"
+Los guardias se asombraron al verme "!Maquina! Los seres como tu no estan permitidos en el Oraculo. Vuelve con tu usuario, aqui no se te ha perdido nada" ordenaron mientras apuntaban con sus lanzas luminicas
 +[Inventar una excusa]
     ->excusa_guardia
 +[Decir la verdad]
@@ -145,12 +144,12 @@ Te debates por que decir y antes de articular una palabra.
 "Te propongo hacer un ritual de adivinación extraoficial" ofertó la señora, "Podras atisbar tu futuro y asi esclarecer ciertas incognitas. ¿Qué me dices?" preguntó de forma seria
 Tu te quedas con una cara un tanto confusa, tus luces parpadean como si estuvieras tomando consciencia de la situacion.
 
-+ Hacer el rito de adivinación
++ [Hacer el rito de adivinación]
     "Vamos a ello" dices con aceptación, "No tengo nada que perder"
     "No se hable mas" dijo la Pitia "Comencemos pues"
     ->profecia
     
-+ Negarte a seguir adelante
++ [Negarte a seguir adelante]
     "Acepto su hospitalidad, pero creo que este no es mi sitio" dijiste declinando su oferta
     "Portas el blason de Apolo, nuestro protector y lider en las artes adivinatorias" insistió la Pitia, "Estas aqui por algo, Lotus"
     Las palabras del encapuchado sobre tu estado de confusion y tus inquietudes sobre ti mismo resuenan en tu cabeza
@@ -160,7 +159,7 @@ Tu te quedas con una cara un tanto confusa, tus luces parpadean como si estuvier
 
 ===profecia===
 La pitia se purifica, despojandose de todo elemento electronico e inhibiendo los pocos implantes ciberneticos para separar su carne de los artificial, para luego meterse dentro de un tanque con un liquido espeso y azul, que limpiaría su impureza natural
-Posterior a esto traen una cabra de carne y hueso, las cuales no se veian mucho en la sociedad, y procediero a echarle agua fria. La cabra tembló lo que significaba que la entidad divina estaba con nosotros.
+Posterior a esto traen una cabra de carne y hueso, las cuales no se veian mucho en la sociedad, y procediero a echarle agua fria. La cabra tembló lo que significó que la entidad divina estaba con nosotros.
 Para terminar, un exageta coloco a la Pitia en una silla de piedra de tres patas y rompió un vial de color rosa en la cara de la Pitonisa.
 Tras un rato, la Vidente empezó a contorsionarse y balbucear. En un momento se lanzo al centro de la estancia y junto al fuego, ella danzó. Mientras los movimientos casi inhumanos y los balbuceos se hacian cada vez mas presentes, el exageta miraba con aun mas atención.
 De repente, la Pitia paró, se incorporó y te miró con los ojos en blancos. Ella te señaló con cara de asombro mientras un viento inexplicable soplaba en tu contra y tras unos segundos cayó desplomada. El rito habia terminado.
@@ -172,6 +171,102 @@ Hermodoro te coge del brazo.
 "La señora se encuentra bien, es un proceso normal, da su vida para ser la voz de Apolo que guíe a los mortales" explicó Hermodoro
 "¿Y que ha dicho?" pregunté sin aliento
 "Tu profecia es la siguiente" comenzó el exageta, "Necio... crees ser el gran trirreme, mas solo eres quien lo gobierna. No confies en quien te da miel tan amablemente, ya que el dulzor solo enmascara el amargor de la cicuta. Las moiras no tejen tu destino, pues lo enredan y hacen precipitar sobre tu testa"
++ [Mostrarse curioso]
+    ->mostrar_curioso
++ [Mostrarse exceptico]
+    ->mostrar_exceptico
++ [Sigues conmocionado y te quedas en blanco]
+    ->mostrar_en_blanco
+
+===mostrar_curioso===
+"¿Y... qué significa?" preguntaste inquieto
+"Eso solo lo puedes saber tu, pues es tu destino y no el mio" explico Hermodoro manteniendose en su criptica linea "Ponla a buen recaudo pues de ella depende tu destino"
+Hermodoro te acompaña a la puerta y te desea lo mejor en tu camino. Antes de llegar a abajo de las escaleras te giras hacia la entrada.
+"Hermodoro, gracias a ti y a la señora por haberme ayudado. Aunque aún no lo comprenda..." dices agradecido pero con cierta inquietud
+"Es nuestro deber, no hay nada que agradecer" dijo el exageta inclinando su cabeza "Hasta mas ver, Lotus"
+
+    ->descubrir_DI
+    
+===mostrar_exceptico===
+"¿Y eso de que me va a servir a mi?" preguntaste molesto "no ha sido mas que una verborrea sin sentido"
+Hermodoro te agarra del hombro y te acerca violentamente a su cara
+"No te atrevas a poner en duda el designio divino" dijo molesto el exageta "Nuestro mundo... nuestro exito, se han conseguido a traves de los sacrificios hechos por las pitonisas al dejar que fuerzas divinas tomen posesion de ellas para asi conocer el devenir y actuar en beneficio de nuestro pueblo" explicó soltandome del hombro y alejando su cara de mi, "No vuelvas a poner en duda la veracidad de una fuerza divina en tierra sagrada y recuerda bien tu profecia, pues es tu destino el que esta en juego y no el mio"
+Hermodoro te acompaña hasta la puerta
+"Gracias y perdona por haber mostrado poca toleracia hacia vuestro trabajo" dices excusandote por tu comportamiento
+"Nos suele pasar a menudo, esta sociedad tan avanzada ha cambiado tanto que ya ni nos reconocemos a nosotros mismos" explica el exageta "Que tengas buenaventura en tu periplo y la proxima vez muestra mas respeto. Hasta mas ver, alma errante"
+    ->descubrir_DI
+    
+===mostrar_en_blanco===
+"Eh, ¿sigues ahí?" preguntó Hermodoro
+Tus ojos parpadean mientras te frotas los ojos con tus manos
+"No estoy seguro" dices mientras te miras las manos "Siento un gran peso en mis hombros, como si algo grande vienese por mi" expresas desconcertado
+"Es normal" dijo tranquilizadoramente Hermodoro "Es posible que sea tu primera profecia y al principio desconcierta, pero no debes de olvidarla pues en ella está tu devenenir"
+El exageta te acompaña hasta la puerta
+"Sigo aun en shock pero muchas gracias al templo por haberme mostrado esa nueva vision" dije asombrado
+"Es nuestro deber, no hay nada que agradecer" dijo Hermodoro inclinando su cabeza "Hasta mas ver, alma errante"
+    ->descubrir_DI
+    
+===descubrir_DI===
+Te pones la caucha otra vez y sin haber entendido muy bien las visiones de la Pitia te quedas con lo que te pareció mas claro: no sabes quien eres.
+Mientras pensabas en todo esto un holograma publicitario en el cielo mostraba a un hombre hablando.
+"TalosF8, el nuevo automata que se añade a nuestra familia de productos en Dedalo Innovatives. Creado por el gran inventor Dedalo, el hombre con la inventiva de un dios, este nuevo producto hecho de bronce es capaz de proteger y ayudar en las tare..."
+Dejas de prestarle atencion a la publicidad. 
+"Ese hombre parece ser mi creador" dices internamente "He de encontrar la manera de hablar con el y asi esclarecer el enigma que asola mi existencia"
+Vuelves a mirar el holograma publicitario el cual mostraba una torre gigante. Una visible desde cualquier punto de la ciudad. La buscas mirando hacia arriba y la terminas encontrando para dirigirte hacia ella
+    ->llegada_DI
+
+===llegada_DI===
+Llegas hacia el imponente edificio con columnas que llegaban hacia los cielos, sujetando y estabilizando la gran esfera de oficinas y talleres que conformaban la parte superior de la torre, la cual emanaba una luz azul y fria.
+Te aproximas a la entrada y te cortan el paso.
+"Identificacion por favor" solicitó una de las guardias
++ [Inventar una estratagema]
+    ->estratagema
++ [Ser sincero]
+    ->sinceridad
+
+===estratagema===
+"Busco a mi pareja que esta trabajando aqui" dije de forma convincente "Quizas la conoceís, se llama Ariadna y suele ser un poco desastre... Se pierde hasta en la casa como si fuera alguna especie de laberinto jeje"
+Las guardias se miraron poniendo los ojos en blanco. Entonces una de ellas extendio su brazo sorpresivamente y me levanto la capucha para  identificarte.
+"Lo sabía... es otro que viene con la gracia del laberinto y para colmo es un Talos defectuoso" expresó hastiada "Vuelve por donde has venido y no nos hagas perder el tiempo"
+Te vas molesto por no haber conseguido tu objetivo y buscas un callejon donde pensar un plan
+    ->pensar_plan_entrada
+    
+===sinceridad===
+"Verá, no tengo ninguna identificacion que mostrar, pero necesito hablar con Dedalo urgentemente" suplicaste a la mujer
+"Me temo que no sera posible, el señor Dedalo es un hombre ocupado y necesitas concertar una audiencia para poder hablar con el" explicó la guardia "Lo siento mucho señor"
+Te vas fastidiado por ver la alta seguridad del lugar y buscas un callejon donde poder elucubrar un nuevo plan
+    ->pensar_plan_entrada
+    
+===pensar_plan_entrada===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -170,7 +170,7 @@ El hombre me apartó hacia una nueva estancia mientras se llevaban a la Vidente 
 Hermodoro te coge del brazo. 
 "La señora se encuentra bien, es un proceso normal, da su vida para ser la voz de Apolo que guíe a los mortales" explicó Hermodoro
 "¿Y que ha dicho?" pregunté sin aliento
-"Tu profecia es la siguiente" comenzó el exageta, "Necio... crees ser el gran trirreme, mas solo eres quien lo gobierna. No confies en quien te da miel tan amablemente, ya que el dulzor solo enmascara el amargor de la cicuta. Las moiras no tejen tu destino, pues lo enredan y hacen precipitar sobre tu testa"
+"Tu profecia es la siguiente" comenzó el exageta, "Necio... crees ser el gran trirreme, mas solo eres quien lo gobierna. No confies en quien te da miel tan amablemente, ya que el dulzor solo enmascara el amargor de la cicuta. Las moiras no tejen tu destino, pues lo enredan y lo hacen precipitar sobre tu testa"
 + [Mostrarse curioso]
     ->mostrar_curioso
 + [Mostrarse exceptico]

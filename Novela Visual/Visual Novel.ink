@@ -207,7 +207,7 @@ El exageta te acompaña hasta la puerta
     ->descubrir_DI
     
 ===descubrir_DI===
-Te pones la caucha otra vez y sin haber entendido muy bien las visiones de la Pitia te quedas con lo que te pareció mas claro: no sabes quien eres.
+Te pones la capucha otra vez y sin haber entendido muy bien las visiones de la Pitia te quedas con lo que te pareció mas claro: no sabes quien eres.
 Mientras pensabas en todo esto un holograma publicitario en el cielo mostraba a un hombre hablando.
 "TalosF8, el nuevo automata que se añade a nuestra familia de productos en Dedalo Innovatives. Creado por el gran inventor Dedalo, el hombre con la inventiva de un dios, este nuevo producto hecho de bronce es capaz de proteger y ayudar en las tare..."
 Dejas de prestarle atencion a la publicidad. 
@@ -238,6 +238,10 @@ Te vas fastidiado por ver la alta seguridad del lugar y buscas un callejon donde
     ->pensar_plan_entrada
     
 ===pensar_plan_entrada===
+Te sientas en el suelo y te pones a pensar
+"Podría intentar colarme en el muelle de carga haciendome pasar por un autómata defectuoso" pensé, "Si, quitarme los arapos e infiltrarme entre los demás autómatas" me dije a mi mismo para autoconvencerme
+
+Mientras seguías sentado y perdido en tu mente notas un toque en el hombro. Das un salto del susto y te pones a la defensiva
 
 
 
